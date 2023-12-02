@@ -11,7 +11,7 @@ import (
 	"os"
 	"strings"
 	"time"
-
+	"examples"
 	"github.com/golang-jwt/jwt"
 	"github.com/pkg/browser"
 )
