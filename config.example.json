@@ -1,0 +1,10 @@
+{
+    "signer_name" : "Sally Signer",
+    "signer_email": "sally@tally.co",
+    "cc_name" : "Mallory Managing",
+    "cc_email": "mallory@tally.co",
+    "integration_key": "00000000-0000-0000-0000-000000000000",
+    "user_impersonation_guid_jwt": "00000000-0000-0000-0000-000000000000",
+    "secret_key_authorization_code_grant" : "00000000-0000-0000-0000-000000000000",
+    "RSA_private_key_jwt_location" : "./private.key"
+}
