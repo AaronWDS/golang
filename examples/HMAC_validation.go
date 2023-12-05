@@ -9,7 +9,7 @@ import (
 )
 
 
-
+//ds-snippet-start:Connect1Step1
 func computeHash(secret []byte, payload []byte) string{
 	mac := hmac.New(sha256.New, secret)
 	mac.Write(payload)
@@ -21,7 +21,7 @@ func checkHash(secret string, payload []byte, verify string) bool {
 
 	return hmac.Equal([]byte(verify), []byte(computeHash([]byte(secret), payload)))
 }
-
+//ds-snippet-end:Connect1Step1
 func main(){
 	jsonResult, err := os.ReadFile("./payload.txt")
 	if err != nil {
